@@ -26,10 +26,10 @@ def readingFile(txtName):
                 count+=1
             elif ((firstPair[0] <= secondPair[0])
                 and (secondPair[0] <= firstPair[1])):
-                    count+=1
+                count+=1
             elif ((secondPair[0] <= firstPair[0])
                 and (firstPair[0] <= secondPair[1])):
-                    count+=1
+                count+=1
 
             print(firstPair)
             print(secondPair)
